@@ -30,3 +30,8 @@ blocks:
           - 'python manage.py makemigrations '
           - python manage.py migrate
           - cd ..
+  - name: 'Block #2'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands: []
